@@ -1,0 +1,75 @@
+---
+---
+
+@charset "utf-8";
+
+// Example Defaults
+// $base-font-family: Helvetica, Arial, sans-serif;
+// $base-font-size:   16px;
+// $small-font-size:  $base-font-size * 0.875;
+// $base-line-height: 1.5;
+
+// $spacing-unit:     30px;
+
+// $text-color:       #111;
+// $background-color: #fdfdfd;
+// $brand-color:      #2a7ae2;
+
+// $grey-color:       #828282;
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark:  darken($grey-color, 25%);
+
+// // Width of the content area
+// $content-width:    800px;
+
+// $on-palm:          600px;
+// $on-laptop:        800px;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+// variables.less
+
+/* Other colors we like #2f6f45*/
+
+$theme-primary: #2f526f;
+$theme-dark: #222;
+
+/* Center the logo */
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust the space between the logo and the text */
+}
+
+.logo {
+    width: 80%; /* Make the logo take up 50% of the container width */
+    max-width: 1000px; /* Limit the max width of the logo for large screens */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* Adjust logo size on mobile devices */
+@media (max-width: 768px) {
+    .logo {
+        width: 90%; /* Make the logo larger on mobile */
+        max-width: 768px; /* Set a smaller max-width for mobile screens */
+    }
+}
+
+/* Adjust logo size on very small screens (optional) */
+@media (max-width: 480px) {
+    .logo {
+        width: 90%; /* Further increase logo size for very small screens */
+        max-width: 480px; /* Limit the size for very small screens */
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "mixins",
+        "base"
+;
