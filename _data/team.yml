@@ -3,18 +3,23 @@ vincentm:
   jobtitle: Director
   image: img\team\VincentMartin.png
   linkedin: https://www.linkedin.com/in/vincent-martin-233487158
-audreym:
-  name: Audrey Morin
-  jobtitle: Manager, Research Operations
-  image: img\team\AudreyMorin.png
-  linkedin: https://www.linkedin.com/in/audrey-morin-57236489
-nicolasg:
-  name: Nicholas Gold
-  jobtitle: Senior Advisor, Business Development and Partnerships Engagement
-  image: img\team\NicholasGold.png
-  linkedin: https://www.linkedin.com/in/nicholas-gold-8a8207254/
+malcolmw:
+  name: Malcolm Whiteway
+  jobtitle: Director
+  image: img\team\MalcolmWhiteway.jpg
+  linkedin: https://www.linkedin.com/in/malcolm-whiteway-67359225/
 lalitk:
   name: Lalit Kumar
-  jobtitle: Supervisor - Microbial Bioprocessing
-  image: img\team\LalitKumar.png
+  jobtitle: Supervisor,<br>Bioprocessing Facility
+  image: img\team\LalitKumar.jpg
   linkedin: https://www.linkedin.com/in/lalitkumar2019/
+nicolasg:
+  name: Nicholas Gold
+  jobtitle: Senior Advisor,<br>Business Development & Partnerships Engagement
+  image: img\team\NicholasGold.png
+  linkedin: https://www.linkedin.com/in/nicholas-gold-8a8207254/
+audreym:
+  name: Audrey Morin
+  jobtitle: Manager,<br>Research Operations
+  image: img\team\AudreyMorin.png
+  linkedin: https://www.linkedin.com/in/audrey-morin-57236489
