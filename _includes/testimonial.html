@@ -1,13 +1,13 @@
-<!--<section id="pricing" style="background-color: grey; color: black;">-->
+<!--<section id="testimonial" style="background-color: white; color: black;">-->
 <!--    <div class="container text-center">-->
 <!--        <div class="call-to-action">-->
-<!--            <h2>Competitive Pricing for Startups and Academics</h2>-->
+<!--            <h2>Client Feature</h2>-->
 <!--            <hr class="primary" style="border-color: black;">-->
 <!--&lt;!&ndash;            <a href="docs/Bioprocess_Draft Pricing_June 2024.pdf" class="btn btn-default btn-xl wow tada">See Current Pricing</a>&ndash;&gt;-->
-<!--            <a href="#contact" class="btn btn-default btn-xl wow tada page-scroll">Contact Us for Pricing</a>-->
-<!--            <p></p>-->
-<!--            <p class="lead text-center mt-4">Ask about funding opportunities for Quebec startups.</p>-->
-<!--            <img src="img/partners/source/CRIBIQ-long-noir-transparent-1.png" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">-->
+<!--&lt;!&ndash;            <a href="#contact" class="btn btn-default btn-xl wow tada page-scroll">Contact Us for Pricing</a>&ndash;&gt;-->
+<!--&lt;!&ndash;            <p></p>&ndash;&gt;-->
+<!--            <p class="lead text-center mt-4">Oh they're so nice. We ♥ Lalit. <i>-You Know Whom</i></p>-->
+<!--            <img src="img/clients/harvest-moon-foods.jpeg" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">-->
 <!--        </div>-->
 <!--    </div>-->
 <!--</section>-->
@@ -15,13 +15,42 @@
 <section id="testimonial" style="background-color: white; color: black;">
     <div class="container text-center">
         <div class="call-to-action">
-            <h2>A word from a valued client</h2>
+            <h2 id="clientFeatureTitle">Client Feature</h2>
             <hr class="primary" style="border-color: black;">
-<!--            <a href="docs/Bioprocess_Draft Pricing_June 2024.pdf" class="btn btn-default btn-xl wow tada">See Current Pricing</a>-->
-<!--            <a href="#contact" class="btn btn-default btn-xl wow tada page-scroll">Contact Us for Pricing</a>-->
-<!--            <p></p>-->
-            <p class="lead text-center mt-4">Oh they're so nice. We ♥ Lalit. <i>-You Know Whom</i></p>
+            <p class="lead text-center mt-4" id="clientTestimonial">Oh they're so nice. We ♥ Lalit. <i>-You Know Whom</i></p>
             <img src="img/clients/harvest-moon-foods.jpeg" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">
         </div>
     </div>
 </section>
+
+<script>
+  const clientFeatureTitle = document.getElementById('clientFeatureTitle');
+  const clientTestimonial = document.getElementById('clientTestimonial');
+  const languageToggle = document.getElementById('languageToggle');
+
+  const englishText = {
+    title: "Client Feature",
+    testimonial: "Oh they're so nice. We ♥ Lalit. <i>-You Know Whom</i>"
+  };
+
+  const frenchText = {
+    title: "En vedette : client",
+    testimonial: "Oh, ils sont si gentils. Nous ♥ Lalit. <i>-Vous savez qui</i>"
+  };
+
+  let currentLanguage = 'english'; // Initialize to English
+
+  languageToggle.addEventListener('click', () => {
+    if (currentLanguage === 'english') {
+      clientFeatureTitle.textContent = frenchText.title;
+      clientTestimonial.innerHTML = frenchText.testimonial; // Use innerHTML for italics
+      languageToggle.textContent = "En";
+      currentLanguage = 'french';
+    } else {
+      clientFeatureTitle.textContent = englishText.title;
+      clientTestimonial.innerHTML = englishText.testimonial; // Use innerHTML for italics
+      languageToggle.textContent = "Fr";
+      currentLanguage = 'english';
+    }
+  });
+</script>
