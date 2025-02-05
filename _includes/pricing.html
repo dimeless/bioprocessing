@@ -12,16 +12,53 @@
 <!--    </div>-->
 <!--</section>-->
 
+<!--<section id="pricing" style="background-color: black; color: white;">-->
+<!--    <div class="container text-center">-->
+<!--        <div class="call-to-action">-->
+<!--            <h2>Competitive Pricing for Startups and Academics</h2>-->
+<!--            <hr class="primary" style="border-color: black;">-->
+<!--&lt;!&ndash;            <a href="docs/Bioprocess_Draft Pricing_June 2024.pdf" class="btn btn-default btn-xl wow tada">See Current Pricing</a>&ndash;&gt;-->
+<!--            <a href="#contact" class="btn btn-default btn-xl wow tada page-scroll">Contact Us for Pricing</a>-->
+<!--            <p></p>-->
+<!--            <p class="lead text-center mt-4">Ask about funding opportunities for Quebec startups.</p>-->
+<!--            <img src="img/partners/white/cribiq logo_white.png" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!--Version with pop-up form using Formspree which we don't have a subscription to-->
 <section id="pricing" style="background-color: black; color: white;">
     <div class="container text-center">
         <div class="call-to-action">
             <h2>Competitive Pricing for Startups and Academics</h2>
             <hr class="primary" style="border-color: black;">
-<!--            <a href="docs/Bioprocess_Draft Pricing_June 2024.pdf" class="btn btn-default btn-xl wow tada">See Current Pricing</a>-->
-            <a href="#contact" class="btn btn-default btn-xl wow tada page-scroll">Contact Us for Pricing</a>
-            <p></p>
+            <button type="button" class="btn btn-default btn-xl wow tada" data-toggle="modal" data-target="#pricingFormModal">Contact Us for Pricing</button>
             <p class="lead text-center mt-4">Ask about funding opportunities for Quebec startups.</p>
-            <img src="img/partners/white/cribiq logo_white.png" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">
+            <img src="img/partners/white/cribiq logo_white.png" alt="CRIBIQ Logo" class="img-fluid mb-3" style="max-width: 33%;">
+        </div>
+    </div>
+
+    <div class="modal fade" id="pricingFormModal" tabindex="-1" role="dialog" aria-labelledby="pricingFormModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pricingFormModalLabel">Contact Us for Pricing</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formspree.io/f/{your_form_id}" method="POST">  <input type="text" name="name" class="form-control mb-3" placeholder="Your Name" required>
+                        <input type="email" name="_replyto" class="form-control mb-3" placeholder="Your Email" required>
+                        <textarea name="message" class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+                        <input type="hidden" name="_subject" value="Pricing Inquiry from Website"> <input type="hidden" name="_next" value="thanks.html"> <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
