@@ -56,17 +56,17 @@
                 <li>
                     <a class="page-scroll" href="#work-with-us">About</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="#pledge">Services</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#testimonial">Client Feature</a>
-                </li>
+<!--                <li>-->
+<!--                    <a class="page-scroll" href="#pledge">Services</a>-->
+<!--                </li>-->
                 <li>
                     <a class="page-scroll" href="#portfolio">Capacities</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#team">Team</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#testimonial">Client Feature</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#pricing">Pricing</a>
@@ -111,7 +111,7 @@
                 <h2 class="section-heading">Work with Our Experts</h2>
                 <hr class="light">
                 <p class="text-faded" style="font-size: 24px">With over 15 years of industry experience, our staff is here to support a wide range of projects, from academic proof-of-concept scale-ups to production demonstrations for startups.</p>
-                <a href="#portfolio" class="btn btn-default btn-xl page-scroll">Learn what we do</a>
+                <a href="#portfolio" class="btn btn-default btn-xl page-scroll" style="background-color: white; color: #2f526f;">Learn What We Do</a>
             </div>
         </div>
     </div>
@@ -160,62 +160,6 @@
     </div>
 </section>
 
-  <!--<section id="testimonial" style="background-color: white; color: black;">-->
-<!--    <div class="container text-center">-->
-<!--        <div class="call-to-action">-->
-<!--            <h2>Client Feature</h2>-->
-<!--            <hr class="primary" style="border-color: black;">-->
-<!--&lt;!&ndash;            <a href="docs/Bioprocess_Draft Pricing_June 2024.pdf" class="btn btn-default btn-xl wow tada">See Current Pricing</a>&ndash;&gt;-->
-<!--&lt;!&ndash;            <a href="#contact" class="btn btn-default btn-xl wow tada page-scroll">Contact Us for Pricing</a>&ndash;&gt;-->
-<!--&lt;!&ndash;            <p></p>&ndash;&gt;-->
-<!--            <p class="lead text-center mt-4">Oh they're so nice. We ♥ Lalit. <i>-You Know Whom</i></p>-->
-<!--            <img src="img/clients/harvest-moon-foods.jpeg" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-<section id="testimonial" style="background-color: white; color: black;">
-    <div class="container text-center">
-        <div class="call-to-action">
-            <h2 id="clientFeatureTitle">Client Feature</h2>
-            <hr class="primary" style="border-color: black;">
-            <p class="lead text-center mt-4" id="clientTestimonial">Oh they're so nice. We ♥ Lalit. <i>-You Know Whom</i></p>
-            <img src="img/clients/harvest-moon-foods.jpeg" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">
-        </div>
-    </div>
-</section>
-
-<script>
-  const clientFeatureTitle = document.getElementById('clientFeatureTitle');
-  const clientTestimonial = document.getElementById('clientTestimonial');
-  const languageToggle = document.getElementById('languageToggle');
-
-  const englishText = {
-    title: "Client Feature",
-    testimonial: "Oh they're so nice. We ♥ Lalit. <i>-You Know Whom</i>"
-  };
-
-  const frenchText = {
-    title: "En vedette : client",
-    testimonial: "Oh, ils sont si gentils. Nous ♥ Lalit. <i>-Vous savez qui</i>"
-  };
-
-  let currentLanguage = 'english'; // Initialize to English
-
-  languageToggle.addEventListener('click', () => {
-    if (currentLanguage === 'english') {
-      clientFeatureTitle.textContent = frenchText.title;
-      clientTestimonial.innerHTML = frenchText.testimonial; // Use innerHTML for italics
-      languageToggle.textContent = "En";
-      currentLanguage = 'french';
-    } else {
-      clientFeatureTitle.textContent = englishText.title;
-      clientTestimonial.innerHTML = englishText.testimonial; // Use innerHTML for italics
-      languageToggle.textContent = "Fr";
-      currentLanguage = 'english';
-    }
-  });
-</script>
   <!--
         5/6 License-free images taken from:
         https://www.pexels.com/search/process%20control/
@@ -515,6 +459,62 @@ possibility to make image size a variable in the future-->
     </div>
 
 </section>
+  <!--<section id="testimonial" style="background-color: white; color: black;">-->
+<!--    <div class="container text-center">-->
+<!--        <div class="call-to-action">-->
+<!--            <h2>Client Feature</h2>-->
+<!--            <hr class="primary" style="border-color: black;">-->
+<!--&lt;!&ndash;            <a href="docs/Bioprocess_Draft Pricing_June 2024.pdf" class="btn btn-default btn-xl wow tada">See Current Pricing</a>&ndash;&gt;-->
+<!--&lt;!&ndash;            <a href="#contact" class="btn btn-default btn-xl wow tada page-scroll">Contact Us for Pricing</a>&ndash;&gt;-->
+<!--&lt;!&ndash;            <p></p>&ndash;&gt;-->
+<!--            <p class="lead text-center mt-4">Oh they're so nice. We ♥ Lalit. <i>-You Know Whom</i></p>-->
+<!--            <img src="img/clients/harvest-moon-foods.jpeg" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<section id="testimonial" style="background-color: white; color: black;">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2 id="clientFeatureTitle">Client Feature</h2>
+            <hr class="primary" style="border-color: black;">
+            <p class="lead text-center mt-4" id="clientTestimonial">Oh they're so nice. We ♥ Lalit. <i>-You Know Whom</i></p>
+            <img src="img/clients/harvest-moon-foods.jpeg" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">
+        </div>
+    </div>
+</section>
+
+<script>
+  const clientFeatureTitle = document.getElementById('clientFeatureTitle');
+  const clientTestimonial = document.getElementById('clientTestimonial');
+  const languageToggle = document.getElementById('languageToggle');
+
+  const englishText = {
+    title: "Client Feature",
+    testimonial: "Oh they're so nice. We ♥ Lalit. <i>-You Know Whom</i>"
+  };
+
+  const frenchText = {
+    title: "En vedette : client",
+    testimonial: "Oh, ils sont si gentils. Nous ♥ Lalit. <i>-Vous savez qui</i>"
+  };
+
+  let currentLanguage = 'english'; // Initialize to English
+
+  languageToggle.addEventListener('click', () => {
+    if (currentLanguage === 'english') {
+      clientFeatureTitle.textContent = frenchText.title;
+      clientTestimonial.innerHTML = frenchText.testimonial; // Use innerHTML for italics
+      languageToggle.textContent = "En";
+      currentLanguage = 'french';
+    } else {
+      clientFeatureTitle.textContent = englishText.title;
+      clientTestimonial.innerHTML = englishText.testimonial; // Use innerHTML for italics
+      languageToggle.textContent = "Fr";
+      currentLanguage = 'english';
+    }
+  });
+</script>
   <!--<section id="pricing" style="background-color: grey; color: black;">-->
 <!--    <div class="container text-center">-->
 <!--        <div class="call-to-action">-->
@@ -529,56 +529,56 @@ possibility to make image size a variable in the future-->
 <!--    </div>-->
 <!--</section>-->
 
-<!--<section id="pricing" style="background-color: black; color: white;">-->
-<!--    <div class="container text-center">-->
-<!--        <div class="call-to-action">-->
-<!--            <h2>Competitive Pricing for Startups and Academics</h2>-->
-<!--            <hr class="primary" style="border-color: black;">-->
-<!--&lt;!&ndash;            <a href="docs/Bioprocess_Draft Pricing_June 2024.pdf" class="btn btn-default btn-xl wow tada">See Current Pricing</a>&ndash;&gt;-->
-<!--            <a href="#contact" class="btn btn-default btn-xl wow tada page-scroll">Contact Us for Pricing</a>-->
-<!--            <p></p>-->
-<!--            <p class="lead text-center mt-4">Ask about funding opportunities for Quebec startups.</p>-->
-<!--            <img src="img/partners/white/cribiq logo_white.png" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-<!--Version with pop-up form using Formspree which we don't have a subscription to-->
 <section id="pricing" style="background-color: black; color: white;">
     <div class="container text-center">
         <div class="call-to-action">
             <h2>Competitive Pricing for Startups and Academics</h2>
             <hr class="primary" style="border-color: black;">
-            <button type="button" class="btn btn-default btn-xl wow tada" data-toggle="modal" data-target="#pricingFormModal">Contact Us for Pricing</button>
+<!--            <a href="docs/Bioprocess_Draft Pricing_June 2024.pdf" class="btn btn-default btn-xl wow tada">See Current Pricing</a>-->
+            <a href="#contact" class="btn btn-default btn-xl wow tada page-scroll">Contact Us for Pricing</a>
+            <p></p>
             <p class="lead text-center mt-4">Ask about funding opportunities for Quebec startups.</p>
-            <img src="img/partners/white/cribiq logo_white.png" alt="CRIBIQ Logo" class="img-fluid mb-3" style="max-width: 33%;">
-        </div>
-    </div>
-
-    <div class="modal fade" id="pricingFormModal" tabindex="-1" role="dialog" aria-labelledby="pricingFormModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="pricingFormModalLabel">Contact Us for Pricing</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form action="https://formspree.io/f/{your_form_id}" method="POST">  <input type="text" name="name" class="form-control mb-3" placeholder="Your Name" required>
-                        <input type="email" name="_replyto" class="form-control mb-3" placeholder="Your Email" required>
-                        <textarea name="message" class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
-                        <input type="hidden" name="_subject" value="Pricing Inquiry from Website"> <input type="hidden" name="_next" value="thanks.html"> <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
+            <img src="img/partners/white/cribiq logo_white.png" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">
         </div>
     </div>
 </section>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--Version with pop-up form using Formspree which we don't have a subscription to-->
+<!--<section id="pricing" style="background-color: black; color: white;">-->
+<!--    <div class="container text-center">-->
+<!--        <div class="call-to-action">-->
+<!--            <h2>Competitive Pricing for Startups and Academics</h2>-->
+<!--            <hr class="primary" style="border-color: black;">-->
+<!--            <button type="button" class="btn btn-default btn-xl wow tada" data-toggle="modal" data-target="#pricingFormModal">Contact Us for Pricing</button>-->
+<!--            <p class="lead text-center mt-4">Ask about funding opportunities for Quebec startups.</p>-->
+<!--            <img src="img/partners/white/cribiq logo_white.png" alt="CRIBIQ Logo" class="img-fluid mb-3" style="max-width: 33%;">-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="modal fade" id="pricingFormModal" tabindex="-1" role="dialog" aria-labelledby="pricingFormModalLabel" aria-hidden="true">-->
+<!--        <div class="modal-dialog" role="document">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-header">-->
+<!--                    <h5 class="modal-title" id="pricingFormModalLabel">Contact Us for Pricing</h5>-->
+<!--                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+<!--                        <span aria-hidden="true">&times;</span>-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--                <div class="modal-body">-->
+<!--                    <form action="https://formspree.io/f/{your_form_id}" method="POST">  <input type="text" name="name" class="form-control mb-3" placeholder="Your Name" required>-->
+<!--                        <input type="email" name="_replyto" class="form-control mb-3" placeholder="Your Email" required>-->
+<!--                        <textarea name="message" class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>-->
+<!--                        <input type="hidden" name="_subject" value="Pricing Inquiry from Website"> <input type="hidden" name="_next" value="thanks.html"> <button type="submit" class="btn btn-primary">Submit</button>-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>-->
+<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
   <section id="contact">
     <div class="container">
         <div class="row">
@@ -590,21 +590,20 @@ possibility to make image size a variable in the future-->
         <div class="row">
             <div class="col-md-6">
                 <div class="contact-info">
-                    <p><h4> Ready to start your next project with us?<br>Send us an email and we'll get back to you as soon as possible!</h4></p>
-
+                    <p><h4>To start your next project with us or to learn more, send us an email or follow the inquiry form link below. We'll get back to you as soon as possible</h4></p>
                     <div class="address" style="background-color: white; color: black; padding: 20px; border-radius: 5px; margin-bottom: 20px;">
-                        <p> <strong>Concordia Bioprocessing</strong><br>
-                            HU S265.01<br>
+                        <p><h4><strong>Concordia Bioprocessing</strong><br>
+                            Applied Science Hub, S265.01<br>
                             7141 Sherbrooke St. W.<br>
                             Montreal, Quebec, Canada<br>
                             H4B 1R6
-                        </p>
-
+                        </h4></p>
                         <a href="mailto:bioprocessing@concordia.ca">
                             <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                            <h5 style="color: black;">bioprocessing@concordia.ca</h5>
+                            <h4 style="color: black;">bioprocessing@concordia.ca</h4>
                             <p></p>
                         </a>
+                        <a href=https://forms.office.com/r/gm1Zhru3Z5 class="btn btn-default btn-xl wow tada" style="background-color: black; color: white">Inquiry Form</a>
                     </div>
 
                 </div>
@@ -768,7 +767,7 @@ possibility to make image size a variable in the future-->
             <div class="col-md-6 d-flex flex-column align-items-center justify-content-center text-center"> <img src="img/foundry logo_white.png" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 60%;">
                 <p></p>
                 <p class="lead">We work hand-in-hand with Canada's first biofoundry, a high-throughput synbio platform, for your strain prototyping needs.</p>
-                <a href="https://genomefoundry.ca" target="_blank" class="btn btn-default btn-xl">Visit the Genome Foundry</a>
+                <a href="https://genomefoundry.ca" target="_blank" class="btn btn-default btn-xl" style="background-color: white; color: #2f526f;">Explore the Genome Foundry</a>
             </div>
         </div>
     </div>
@@ -826,7 +825,7 @@ possibility to make image size a variable in the future-->
         <div class="container">
         <div class="row align-items-center justify-content-between">
             <div>
-                <span><strong><class="navbar-brand mr-2 mb-0">Concordia Bioprocessing</strong> Copyright © <script>document.write(new Date().getFullYear())</script>.</span>
+                <span><strong><class="navbar-brand mr-2 mb-0">Concordia Bioprocessing</strong> © <script>document.write(new Date().getFullYear())</script>.</span>
                 <p></p>
             </div>
         </div>
