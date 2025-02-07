@@ -12,45 +12,13 @@
 <!--    </div>-->
 <!--</section>-->
 
-<section id="testimonial" style="background-color: white; color: black;">
+<section id="testimonial" class="no-padding" style="background-color: white; color: black;">
     <div class="container text-center">
         <div class="call-to-action">
             <h2 id="clientFeatureTitle">Client Feature</h2>
             <hr class="primary" style="border-color: black;">
             <p class="lead text-center mt-4" id="clientTestimonial">We ♥ Lalit. <i>-You Know Wh<strong>MOO</strong>N</i></p>
-            <img src="img/clients/harvest-moon-foods.jpeg" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">
+            <img src="../img/clients/harvest-moon-foods.jpeg" alt="Small Image Description" class="img-fluid mb-3" style="max-width: 33%;">
         </div>
     </div>
 </section>
-
-<script>
-  const clientFeatureTitle = document.getElementById('clientFeatureTitle');
-  const clientTestimonial = document.getElementById('clientTestimonial');
-  const languageToggle = document.getElementById('languageToggle');
-
-  const englishText = {
-    title: "Client Feature",
-    testimonial: "We ♥ Lalit. <i>-You Know Wh<strong>MOO</strong>N</i>"
-  };
-
-  const frenchText = {
-    title: "En vedette : client",
-    testimonial: "Nous ♥ Lalit. <i>-Vous savez qui 🐄</i>"
-  };
-
-  let currentLanguage = 'english'; // Initialize to English
-
-  languageToggle.addEventListener('click', () => {
-    if (currentLanguage === 'english') {
-      clientFeatureTitle.textContent = frenchText.title;
-      clientTestimonial.innerHTML = frenchText.testimonial; // Use innerHTML for italics
-      languageToggle.textContent = "En";
-      currentLanguage = 'french';
-    } else {
-      clientFeatureTitle.textContent = englishText.title;
-      clientTestimonial.innerHTML = englishText.testimonial; // Use innerHTML for italics
-      languageToggle.textContent = "Fr";
-      currentLanguage = 'english';
-    }
-  });
-</script>
