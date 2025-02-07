@@ -122,9 +122,9 @@
 
     <!-- portfolio_alt.html text -->
     title1_portfolio: "Capacité de fermentation",
-    text1_1_portfolio: "Mini laboratoire : 0,2 L (×8) (à venir au printemps 2025)",
-    text1_2_portfolio: "Petit laboratoire : 3 L (×4), 5 L, 15 L (×2), 20 L (×2)",
-    text1_3_portfolio: "Stérilisation en place : 10 L, 100 L, 200 L (à venir jusqu'en 2026)",
+    text1_1_portfolio: "Mini : 0,2 L (×8) (à venir au printemps 2025)",
+    text1_2_portfolio: "Petit : 3 L (×4), 5 L, 15 L (×2), 20 L (×2)",
+    text1_3_portfolio: "Stérilisation en place : 10 L, 100 L, 200 L (à venir avant 2026)",
 
     title2_portfolio: "Traitement en aval",
     text2_1_portfolio: "Centrifugation continue (bientôt disponible), filtration tangentielle, séchage par pulvérisation, lyophilisation",
