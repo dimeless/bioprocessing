@@ -25,7 +25,7 @@
 
     <!-- work-with-us.html text -->
     title_about:"Work with Our Experts",
-    text_about:"With over 15+ years of industrial fermentation experience and decades of microbial engineering expertise, our team supports projects at every stage, from academic proof-of-concept scale-ups to production demonstrations for startups. We also provide consulting on fermentation strategy to help optimize your process and maximize efficiency.",
+    text_about:"With 15+ years of hands-on industrial fermentation experience and decades of expertise in microbial strain engineering, our team works with academic researchers and emerging startups, supporting projects at every stage—offering services in process optimization, scale-up and scale-down, production demonstrations, and technology transfer.",
     button_about:"Learn What We Do",
 
     <!-- pledge.html text -->
@@ -109,7 +109,7 @@
 
     <!-- work-with-us.html text -->
     title_about:"Travaillez avec nos experts",
-    text_about:"Avec plus de 15 ans d'expérience en fermentation industrielle et des décennies d'expertise en ingénierie microbienne, notre équipe soutient les projets à chaque étape, de la preuve de concept académique à la démonstration de production pour les startups. Nous fournissons également des conseils sur la stratégie de fermentation pour aider à optimiser votre processus et à maximiser l'efficacité.",
+    text_about:"Fort de plus de 15 ans d'expérience pratique en fermentation industrielle et de plusieurs décennies d'expertise en ingénierie des souches microbiennes, notre équipe travaille avec des chercheurs académiques et des startups émergentes, soutenant les projets à chaque étape—en offrant des services d'optimisation des processus, de montée en échelle et de réduction d'échelle, de démonstrations de production et de transfert de technologie.",
     button_about:"Découvrez ce que nous faisons",
 
     <!-- pledge.html text -->
