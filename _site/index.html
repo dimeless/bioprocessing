@@ -91,8 +91,8 @@
 
             <!-- Title and Text -->
             <hr style="border-color: white;">
-            <p id="big_text_header" style="font-size: 32px; text-transform: uppercase; font-weight: bold; color: white;"> Full service R&D platform for<br>microbe-based biomanufacturing</p>
-            <p><h4 id="small_text_header">From Laboratory Research to Industrial Scale-Up & Technology Transfer</h4></p>
+            <p id="big_text_header" style="font-size: 32px; text-transform: uppercase; font-weight: bold; color: white;">Full service R & D platform for microbe-based biomanufacturing</p>
+<!--            <p><h4 id="small_text_header">From Laboratory Research to Industrial Scale-Up & Technology Transfer</h4></p>-->
             <a href="#work-with-us" id="button_header" class="btn btn-primary btn-xl page-scroll">Find out more</a>
         </div>
     </div>
@@ -104,7 +104,7 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 id="title_about" class="section-heading">Work with Our Experts</h2>
                 <hr class="light">
-                <p id="text_about"  class="text-faded" style="font-size: 24px">With decades of microbial engineering expertise and over 15+ years of industrial fermentation experience, our team supports projects at every stage, from academic proof-of-concept scale-ups to production demonstrations for startups. We also provide consulting on fermentation strategy to help optimize your process and maximize efficiency.</p>
+                <p id="text_about"  class="text-faded" style="font-size: 19px">With over 15+ years of industrial fermentation experience and decades of microbial engineering expertise, our team supports projects at every stage, from academic proof-of-concept scale-ups to production demonstrations for startups. We also provide consulting on fermentation strategy to help optimize your process and maximize efficiency.</p>
                 <a href="#portfolio" id="button_about" class="btn btn-default btn-xl page-scroll" style="background-color: white; color: #2f526f;">Learn What We Do</a>
             </div>
         </div>
@@ -124,7 +124,8 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+<!--                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>-->
+                    <i class="fa fa-4x fa-gem wow bounceIn text-primary"></i>
                     <h3 id="subtitle_1">"Our Commitment"</h3>
                     <p id="text_1" class="text-muted">Your success is our measure of success.</p>
                 </div>
@@ -260,199 +261,132 @@
     </div>
 </section>
 
-  <section id="team">
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .team-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 id="title_team" class="section-heading">Our Team</h2>
-                <hr class="primary">
+        .team-member {
+            text-align: center;
+            margin: 10px;
+            flex: 1 0 18%;
+            min-width: 200px;
+            position: relative; /* For positioning the icon (if needed later) */
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .team-member h3 {
+            margin-bottom: 5px;
+        }
+
+        .team-member .member-info { /* Container for title and icon */
+            display: flex;
+            flex-direction: column; /* Stack title and icon */
+            align-items: center; /* Center horizontally */
+        }
+        .team-member p{
+            margin-bottom: 5px;
+        }
+
+        .team-member a {
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 5px; /* Space between title and icon */
+        }
+
+        .team-member a i {
+            font-size: 20px;
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+            .team-member {
+                flex: 1 0 45%;
+            }
+        }
+        @media (max-width: 500px) {
+            .team-member {
+                flex: 1 0 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="team">
+        <div class="col-lg-12 text-center">
+            <h2 id="title_team" class="section-heading">Our Team</h2>
+            <hr class="primary">
+        </div>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="img\team\VincentMartin.png" alt="Member 1">
+                <h3>Vincent Martin</h3>
+                <div class="member-info">
+                    <p>Director</p>
+                    <p></p>
+                    <p></p>
+                    <a href="https://www.linkedin.com/in/vincent-martin-233487158" target="_blank" style="color: #2f526f;"><i class="fa-brands fa-linkedin" ></i></a>
+                </div>
             </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="service-box">
-                    
-                    <!--
-team member card
-
-a card layout to show a team member
-must include name, jobtitle, image, linkedin (optional), github (optional)
-possibility to make image size a variable in the future-->
-<div class="m-4 p-4 shadow rounded-bottom-end d-flex flex-column align-items-center justify-content-center" style="background-color: #ffffff11; height:405px">
-    <div class="position-relative d-flex flex-column align-items-center justify-content-center">
-        <img src="img\team\VincentMartin.png" height="180px" alt="photo of Vincent Martin"
-            class="shadow rounded-circle">
-        
-        <div class="position-absolute bottom-0 end-0" style="z-index: 2;">
-            
-            <a href="https://www.linkedin.com/in/vincent-martin-233487158" target="_blank">
-                <button type="button" class="btn btn-primary rounded-pill shadow">
-                    <i class="bi bi-linkedin"></i>
-                    <span class="visually-hidden">LinkedIn</span>
-                </button>
-            </a>
-            
-            
-        </div>
-        
-    </div>
-    <div class="py-2">
-        <h3 class="text-white pt-3 fs-4">Vincent Martin</h3>
-        <p class="text-muted mb-0">Director</p>
-    </div>
-</div>
-                    </div>
+            <div class="team-member">
+                <img src="img\team\MalcolmWhiteway.jpg" alt="Member 2">
+                <h3>Malcolm Whiteway</h3>
+                <div class="member-info">
+                    <p>Director</p>
+                    <p></p>
+                    <p></p>
+                    <a href="https://www.linkedin.com/in/malcolm-whiteway-67359225/" target="_blank" style="color: #2f526f;"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
-            
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="service-box">
-                    
-                    <!--
-team member card
+            </div>
 
-a card layout to show a team member
-must include name, jobtitle, image, linkedin (optional), github (optional)
-possibility to make image size a variable in the future-->
-<div class="m-4 p-4 shadow rounded-bottom-end d-flex flex-column align-items-center justify-content-center" style="background-color: #ffffff11; height:405px">
-    <div class="position-relative d-flex flex-column align-items-center justify-content-center">
-        <img src="img\team\MalcolmWhiteway.jpg" height="180px" alt="photo of Malcolm Whiteway"
-            class="shadow rounded-circle">
-        
-        <div class="position-absolute bottom-0 end-0" style="z-index: 2;">
-            
-            <a href="https://www.linkedin.com/in/malcolm-whiteway-67359225/" target="_blank">
-                <button type="button" class="btn btn-primary rounded-pill shadow">
-                    <i class="bi bi-linkedin"></i>
-                    <span class="visually-hidden">LinkedIn</span>
-                </button>
-            </a>
-            
-            
-        </div>
-        
-    </div>
-    <div class="py-2">
-        <h3 class="text-white pt-3 fs-4">Malcolm Whiteway</h3>
-        <p class="text-muted mb-0">Director</p>
-    </div>
-</div>
-                    </div>
+            <div class="team-member">
+                <img src="img\team\LalitKumar.jpg" alt="Member 3">
+                <h3>Lalit Kumar</h3>
+                <div class="member-info">
+                    <p>Supervisor,<br>Bioprocessing Facility</p>
+                    <a href="https://www.linkedin.com/in/lalitkumar2019/" target="_blank" style="color: #2f526f;"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
-            
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="service-box">
-                    
-                    <!--
-team member card
+            </div>
 
-a card layout to show a team member
-must include name, jobtitle, image, linkedin (optional), github (optional)
-possibility to make image size a variable in the future-->
-<div class="m-4 p-4 shadow rounded-bottom-end d-flex flex-column align-items-center justify-content-center" style="background-color: #ffffff11; height:405px">
-    <div class="position-relative d-flex flex-column align-items-center justify-content-center">
-        <img src="img\team\LalitKumar.jpg" height="180px" alt="photo of Lalit Kumar"
-            class="shadow rounded-circle">
-        
-        <div class="position-absolute bottom-0 end-0" style="z-index: 2;">
-            
-            <a href="https://www.linkedin.com/in/lalitkumar2019/" target="_blank">
-                <button type="button" class="btn btn-primary rounded-pill shadow">
-                    <i class="bi bi-linkedin"></i>
-                    <span class="visually-hidden">LinkedIn</span>
-                </button>
-            </a>
-            
-            
-        </div>
-        
-    </div>
-    <div class="py-2">
-        <h3 class="text-white pt-3 fs-4">Lalit Kumar</h3>
-        <p class="text-muted mb-0">Supervisor,<br>Bioprocessing Facility</p>
-    </div>
-</div>
-                    </div>
+            <div class="team-member">
+                <img src="img\team\NicholasGold.png" alt="Member 4">
+                <h3>Nicholas Gold</h3>
+                <div class="member-info">
+                    <p>Senior Advisor, Business Development & Partnerships Engagement</p>
+                    <a href="https://www.linkedin.com/in/nicholas-gold-8a8207254/" target="_blank" style="color: #2f526f;"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
-            
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="service-box">
-                    
-                    <!--
-team member card
+            </div>
 
-a card layout to show a team member
-must include name, jobtitle, image, linkedin (optional), github (optional)
-possibility to make image size a variable in the future-->
-<div class="m-4 p-4 shadow rounded-bottom-end d-flex flex-column align-items-center justify-content-center" style="background-color: #ffffff11; height:405px">
-    <div class="position-relative d-flex flex-column align-items-center justify-content-center">
-        <img src="img\team\AudreyMorin.png" height="180px" alt="photo of Audrey Morin"
-            class="shadow rounded-circle">
-        
-        <div class="position-absolute bottom-0 end-0" style="z-index: 2;">
-            
-            <a href="https://www.linkedin.com/in/audrey-morin-57236489" target="_blank">
-                <button type="button" class="btn btn-primary rounded-pill shadow">
-                    <i class="bi bi-linkedin"></i>
-                    <span class="visually-hidden">LinkedIn</span>
-                </button>
-            </a>
-            
-            
-        </div>
-        
-    </div>
-    <div class="py-2">
-        <h3 class="text-white pt-3 fs-4">Audrey Morin</h3>
-        <p class="text-muted mb-0">Manager,<br>Research Operations</p>
-    </div>
-</div>
-                    </div>
+            <div class="team-member">
+                <img src="img\team\AudreyMorin.png" alt="Member 5">
+                <h3>Audrey Morin</h3>
+                <div class="member-info">
+                    <p>Manager,<br>Research Operations</p>
+                    <a href="https://www.linkedin.com/in/audrey-morin-57236489" target="_blank" style="color: #2f526f;"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
-            
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="service-box">
-                    
-                    <!--
-team member card
+            </div>
 
-a card layout to show a team member
-must include name, jobtitle, image, linkedin (optional), github (optional)
-possibility to make image size a variable in the future-->
-<div class="m-4 p-4 shadow rounded-bottom-end d-flex flex-column align-items-center justify-content-center" style="background-color: #ffffff11; height:405px">
-    <div class="position-relative d-flex flex-column align-items-center justify-content-center">
-        <img src="img\team\NicholasGold.png" height="180px" alt="photo of Nicholas Gold"
-            class="shadow rounded-circle">
-        
-        <div class="position-absolute bottom-0 end-0" style="z-index: 2;">
-            
-            <a href="https://www.linkedin.com/in/nicholas-gold-8a8207254/" target="_blank">
-                <button type="button" class="btn btn-primary rounded-pill shadow">
-                    <i class="bi bi-linkedin"></i>
-                    <span class="visually-hidden">LinkedIn</span>
-                </button>
-            </a>
-            
-            
         </div>
-        
-    </div>
-    <div class="py-2">
-        <h3 class="text-white pt-3 fs-4">Nicholas Gold</h3>
-        <p class="text-muted mb-0">Senior Advisor,<br>Business Development & Partnerships Engagement</p>
-    </div>
-</div>
-                    </div>
-                </div>
-            
-        </div>
-    </div>
-
-</section>
+    </section>
+</body>
+</html>
   <section id="testimonial" class="no-padding" style="background-color: white; color: black;">
     <div class="banner-container" style="width: 100%; height: 350px; overflow: hidden;">
         <img src="img/clients/pexels-shvetsa-5953774.jpg" alt="Banner Image" style="width: 100%; height: 100%; object-fit: cover;">
@@ -476,7 +410,7 @@ possibility to make image size a variable in the future-->
             <p></p>
             <p id="text_pricing" class="lead text-center mt-4">Ask about funding opportunities for Quebec startups.</p>
             <a href="https://cribiq.qc.ca/en/our-services/funding-programs" target="_blank" rel="noopener noreferrer">
-                <img src="img/partners/white/cribiq logo_white.png" alt="CRIBIQ Logo" class="img-fluid mb-3" style="max-width: 25%;">
+                <img src="img/partners/white/cribiq logo_white.png" alt="CRIBIQ Logo" class="img-fluid mb-3" style="max-width: 33%;">
             </a>
         </div>
     </div>
@@ -494,14 +428,14 @@ possibility to make image size a variable in the future-->
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 text-center">
                 <div class="contact-info">
                     <p><h3 id="text_contact">Contact us for an estimate and more information</h3></p>
                     <div class="address" style="background-color: white; color: black; padding: 20px; border-radius: 5px; margin-bottom: 20px;">
                         <p><h4><strong>Concordia Bioprocessing</strong><br>
                             Applied Science Hub, S265.01<br>
-                            7141 Sherbrooke St. W.<br>
-                            Montreal, Quebec, Canada<br>
+                            7141, rue. Sherbrooke O.<br>
+                            Montréal, Québec, Canada<br>
                             H4B 1R6
                         </h4></p>
                         <a href="mailto:bioprocessing@concordia.ca">
@@ -547,19 +481,81 @@ possibility to make image size a variable in the future-->
         margin-bottom: 20px; /* Space below the address */
     }
 </style>
-  <section id="affiliation" style="background-color: #2f526f; color: white;">
+  <!--<section id="affiliation" style="background-color: #2f526f; color: white;">-->
+<!--    <div class="container my-4">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-6 order-md-first d-flex justify-content-center">-->
+<!--                <img src="img/foundry_600x400_cropped.jpg" alt="Main Image Description" class="img-fluid main-image" style="max-width: 100%; height: auto;">-->
+<!--            </div>-->
+
+<!--            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">-->
+<!--                <p></p>-->
+<!--                <img src="img/foundry logo_white.png" alt="Small Image Description" class="img-fluid mb-3 mx-auto" style="max-width: 60%;">-->
+<!--                <p></p>-->
+<!--                <p id="title_affiliation" class="lead text-left"> We work hand-in-hand with Canada's first biofoundry, a high-throughput synbio platform, for your strain prototyping needs.</p>-->
+<!--                <a href="https://genomefoundry.ca" target="_blank" id="button_affiliation" class="btn btn-default btn-xl" style="background-color: white; color: #2f526f;">Explore the Genome Foundry</a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <style>-->
+<!--        @media (max-width: 576px) {-->
+<!--            .main-image {-->
+<!--                width: 100%;-->
+<!--                max-width: 100%;-->
+<!--                height: auto;-->
+<!--                object-fit: contain;-->
+<!--            }-->
+<!--        }-->
+<!--       /* .btn-default {  You might need to define these styles if not using Bootstrap-->
+<!--            background-color: #f0f0f0;-->
+<!--            border-color: #ccc;-->
+<!--            color: #333;-->
+<!--        }-->
+<!--        .btn-xl {-->
+<!--            font-size: 1.2em;-->
+<!--            padding: 10px 20px;-->
+<!--        }*/-->
+<!--    </style>-->
+
+<!--</section>-->
+
+
+
+<section id="affiliation" class="no-padding" style="background-color: white; color: black;">
+
+    <div class="banner-container" style="width: 100%; height: 350px; overflow: hidden;">
+        <img src="img/foundry.jpg" alt="Banner Image" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p></p>
+<!--                <h2 id="affiliationTitle">Affiliation</h2>-->
+<!--                <hr class="primary" style="border-color: black;">-->
+                <p></p>
+                <img src="img/foundry logo.svg" alt="Small Image Description" class="img-fluid mb-3 mx-auto" style="max-width: 50%;">
+                <p></p>
+                <p id="title_affiliation" class="lead text-center"> We work hand-in-hand with Canada's first biofoundry, a high-throughput synthetic biology platform for your strain prototyping needs.</p>
+<!--            <a href="https://genomefoundry.ca" target="_blank" id="button_affiliation" class="btn btn-default btn-xl" style="background-color: #2f526f; color: white;">Explore the Genome Foundry</a>-->
+                <a href="https://genomefoundry.ca" target="_blank" id="button_affiliation" class="btn btn-default btn-xl" style="background-color: white; color: black; border: 2px solid black;">Explore the Genome Foundry</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <section id="signoff" style="background-color: white; color: black;">
     <div class="container my-4">
         <div class="row">
             <div class="col-md-6 order-md-first d-flex justify-content-center">
-                <img src="img/foundry_600x400_cropped.jpg" alt="Main Image Description" class="img-fluid main-image" style="max-width: 100%; height: auto;">
+                <img src="img/gemini.jpeg" alt="Main Image Description" class="img-fluid main-image" style="max-width: 100%; height: auto;">
             </div>
 
             <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
                 <p></p>
-                <img src="img/foundry logo_white.png" alt="Small Image Description" class="img-fluid mb-3 mx-auto" style="max-width: 60%;">
-                <p></p>
-                <p id="title_affiliation" class="lead text-left"> We work hand-in-hand with Canada's first biofoundry, a high-throughput synbio platform, for your strain prototyping needs.</p>
-                <a href="https://genomefoundry.ca" target="_blank" id="button_affiliation" class="btn btn-default btn-xl" style="background-color: white; color: #2f526f;">Explore the Genome Foundry</a>
+                <p id="text_signoff" class="lead text-left" style="max-width: 70%">Trust us with your favourite bugs. We'll get the best out of them because we'll love them like our own.</p>
             </div>
         </div>
     </div>
@@ -585,8 +581,46 @@ possibility to make image size a variable in the future-->
     </style>
 
 </section>
+  <!--Black on white-->
+<!--<section id="support" style="background-color: white; color: black;">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-12 text-left">-->
+<!--                <h4 id="text_support" class="section-heading">With Support from</h4>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="container">-->
+<!--        <div class="row justify-content-center align-items-center">-->
+<!--            <div class="col-lg-3 col-md-3 col-sm-6 text-center">-->
+<!--                <div class="service-box">-->
+<!--                    <img src="img/partners/black/MEIE_black.png" alt="Partner Logo" class="img-fluid" style="max-width: 80%; height: auto; width: auto;">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-3 col-md-3 col-sm-6 text-center">-->
+<!--                <div class="service-box">-->
+<!--                    <img src="img/partners/black/CFI_black.png" alt="Partner Logo" class="img-fluid" style="max-width: 80%; height: auto; width: auto;">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-3 col-md-3 col-sm-6 text-center">-->
+<!--                <div class="service-box">-->
+<!--            		<a href="https://www.concordia.ca/cunews/offices/advancement/2022/09/28/collaboration-leads-to-success-lallemand-inc-gives-812-000-to-bioprocessing-centre.html" target="_blank" rel="noopener noreferrer">-->
+<!--		                <img src="img/partners/black/Lallemand_black2.png" alt="Partner Logo" class="img-fluid" style="max-width: 75%; height: auto; width: auto;">-->
+<!--&lt;!&ndash;                        <p><h5>story</h5></p>&ndash;&gt;-->
+<!--		            </a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-3 col-md-3 col-sm-6 text-center">-->
+<!--                <div class="service-box">-->
+<!--                    <img src="img/partners/black/Concordia_black.png" alt="Partner Logo" class="img-fluid" style="max-width: 80%; height: auto; width: auto;">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
-  <section id="support" style="background-color: white; color: black;">
+<!--White on black-->
+<section id="support" style="background-color: black; color: white;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-left">
@@ -598,24 +632,25 @@ possibility to make image size a variable in the future-->
         <div class="row justify-content-center align-items-center">
             <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                 <div class="service-box">
-                    <img src="img/partners/black/MEIE_black.png" alt="Partner Logo" class="img-fluid" style="max-width: 80%; height: auto; width: auto;">
+                    <img src="img/partners/white/MEIE_white.png" alt="Partner Logo" class="img-fluid" style="max-width: 80%; height: auto; width: auto;">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                 <div class="service-box">
-                    <img src="img/partners/black/CFI_black.png" alt="Partner Logo" class="img-fluid" style="max-width: 80%; height: auto; width: auto;">
+                    <img src="img/partners/white/CFI_white.svg" alt="Partner Logo" class="img-fluid" style="max-width: 80%; height: auto; width: auto;">
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                 <div class="service-box">
             		<a href="https://www.concordia.ca/cunews/offices/advancement/2022/09/28/collaboration-leads-to-success-lallemand-inc-gives-812-000-to-bioprocessing-centre.html" target="_blank" rel="noopener noreferrer">
-		                <img src="img/partners/black/Lallemand_black2.png" alt="Partner Logo" class="img-fluid" style="max-width: 75%; height: auto; width: auto;">
+		                <img src="img/partners/white/Lallemand_white.png" alt="Partner Logo" class="img-fluid" style="max-width: 75%; height: auto; width: auto;">
+<!--                        <p><h5>story</h5></p>-->
 		            </a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                 <div class="service-box">
-                    <img src="img/partners/black/Concordia_black.png" alt="Partner Logo" class="img-fluid" style="max-width: 80%; height: auto; width: auto;">
+                    <img src="img/partners/white/Concordia_white.png" alt="Partner Logo" class="img-fluid" style="max-width: 80%; height: auto; width: auto;">
                 </div>
             </div>
         </div>
@@ -626,6 +661,7 @@ possibility to make image size a variable in the future-->
         <div class="container">
         <div class="row align-items-center justify-content-between">
             <div>
+                <p></p>
                 <span><strong><class="navbar-brand mr-2 mb-0">Concordia Bioprocessing</strong> © <script>document.write(new Date().getFullYear())</script>.</span>
                 <p></p>
             </div>

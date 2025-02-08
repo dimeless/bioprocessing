@@ -15,17 +15,17 @@
     nav_partners: "Partners",
 
     <!-- header.html text -->
-    big_text_header: "Full service R&D platform for microbe-based biomanufacturing",
+    big_text_header: "Full service R & D platform for microbe-based biomanufacturing",
     small_text_header: "From Laboratory Research to Industrial Scale-Up & Technology Transfer",
     button_header: "Find out more",
 
     <!-- testimonial.html text -->
-    title: "Client Feature",
-    // testimonial: "We ♥ Lalit. <i>-You Know Wh<strong>MOO</strong>N</i>",
+    clientFeatureTitle: "Client Feature",
+    clientTestimonial: "We ♥ Lalit. -You Know WhMOON",
 
     <!-- work-with-us.html text -->
     title_about:"Work with Our Experts",
-    text_about:"With decades of microbial engineering expertise and over 15+ years of industrial fermentation experience, our team supports projects at every stage, from academic proof-of-concept scale-ups to production demonstrations for startups. We also provide consulting on fermentation strategy to help optimize your process and maximize efficiency.",
+    text_about:"With over 15+ years of industrial fermentation experience and decades of microbial engineering expertise, our team supports projects at every stage, from academic proof-of-concept scale-ups to production demonstrations for startups. We also provide consulting on fermentation strategy to help optimize your process and maximize efficiency.",
     button_about:"Learn What We Do",
 
     <!-- pledge.html text -->
@@ -49,7 +49,7 @@
     text2_1_portfolio: "Continuous centrifugation (coming soon), tangential flow filtration, spray drying, lyophilization",
 
     title3_portfolio: "Monitoring & Analysis",
-    text3_1_portfolio: " Biomass analysis, cell imaging, sugar & metabolite profiling, protein quantification",
+    text3_1_portfolio: "Biomass analysis, cell imaging, sugar & metabolite profiling, protein quantification",
 
     title4_portfolio: "Organisms we have worked with",
     text4_1_portfolio: "Bacteria, budding yeasts, methylotrophic yeasts, fungi",
@@ -75,8 +75,11 @@
     button_contact: "Inquiry Form",
 
     <!-- affiliation.html text -->
-    title_affiliation: "We work hand-in-hand with Canada's first biofoundry, a high-throughput synbio platform, for your strain prototyping needs.",
+    title_affiliation: "We work hand-in-hand with Canada's first biofoundry, a high-throughput synthetic biology platform for your strain prototyping needs.",
     button_affiliation: "Explore the Genome Foundry",
+
+    <!-- signoff.html text -->
+    text_signoff: "Trust us with your favourite bugs. We'll get the best out of them because we'll love them like our own.",
 
     <!-- support.html text -->
     text_support: "With Support from",
@@ -84,7 +87,7 @@
   };
 
   const frenchText = {
-    languageToggle: "En",
+    languageToggle: "An",
 
     <!-- nav.html text -->
     nav_about: "À propos",
@@ -96,17 +99,17 @@
     nav_partners: "Partenaires",
 
     <!-- header.html text -->
-    big_text_header: "Plateforme de R&D complète pour la bioproduction à base de microbes",
+    big_text_header: "Plateforme de R & D complète pour la bioproduction à base de microbes",
     small_text_header: "De la recherche en laboratoire à l'industrialisation et au transfert de technologie",
     button_header: "En savoir plus",
 
     <!-- testimonial.html text -->
-    title: "En vedette : client",
-    // testimonial: "Nous ♥ Lalit. <i>-Vous savez qui 🐄</i>",
+    clientFeatureTitle: "En vedette : client",
+    clientTestimonial: "Nous ♥ Lalit. -Vache qui rit",
 
     <!-- work-with-us.html text -->
     title_about:"Travaillez avec nos experts",
-    text_about:"Avec des décennies d'expertise en ingénierie microbienne et plus de 15 ans d'expérience en fermentation industrielle, notre équipe soutient les projets à chaque étape, de la preuve de concept académique à la démonstration de production pour les startups. Nous fournissons également des conseils sur la stratégie de fermentation pour aider à optimiser votre processus et à maximiser l'efficacité.",
+    text_about:"Avec plus de 15 ans d'expérience en fermentation industrielle et des décennies d'expertise en ingénierie microbienne, notre équipe soutient les projets à chaque étape, de la preuve de concept académique à la démonstration de production pour les startups. Nous fournissons également des conseils sur la stratégie de fermentation pour aider à optimiser votre processus et à maximiser l'efficacité.",
     button_about:"Découvrez ce que nous faisons",
 
     <!-- pledge.html text -->
@@ -156,8 +159,11 @@
     button_contact: "Formulaire de demande",
 
     <!-- affiliation.html text -->
-    title_affiliation: "Nous travaillons main dans la main avec le premier biofonderie du Canada, une plateforme de synbio à haut débit, pour vos besoins de prototypage de souches.",
+    title_affiliation: "Nous travaillons main dans la main avec la première biofonderie du Canada, une plateforme de biologie synthétique à haut débit pour vos besoins de prototypage de souches.",
     button_affiliation: "Explorer la fonderie de génomes",
+
+    <!-- signoff.html text -->
+    text_signoff: "Faites-nous confiance pour vos micro-organismes préférés. Nous en tirerons le meilleur car nous en prendrons soin comme des nôtres.",
 
     <!-- support.html text -->
     text_support: "Avec le soutien de",
