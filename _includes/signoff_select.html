@@ -1,0 +1,77 @@
+<section id="signoff_select" style="background-color: white; color: black;">
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-6 order-md-first d-flex justify-content-center">
+                <div class="gallery-container" style="position: relative;">  <div class="gallery-inner" style="overflow: hidden; white-space: nowrap;">
+                        <img src="img/krakenimages-376KN_ISplE-unsplash.jpg" alt="Image 1" class="gallery-image">
+                        <img src="img/istockphoto-181886590-1024x1024_watermark-unlicensed.jpg" alt="Image 2" class="gallery-image">
+                        <img src="img/isaac-smith-AT77Q0Njnt0-unsplash.jpg" alt="Image 3" class="gallery-image">
+                        <img src="img/florian-berger-SzG0ncGBOeo-unsplash.jpg" alt="Image 3" class="gallery-image">
+                        <img src="img/volodymyr-hryshchenko-L0oJ4Dlfyuo-unsplash.jpg" alt="Image 3" class="gallery-image">
+                        <img src="img/emily-crawford-WRhguOHRsqM-unsplash.jpg" alt="Image 3" class="gallery-image">
+                        <img src="img/freestocks-r_oV6smBBYk-unsplash.jpg" alt="Image 3" class="gallery-image">
+
+                        </div>
+                    <button class="gallery-control prev-button" onclick="scrollGallery(-1)" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%);">❮</button>
+                    <button class="gallery-control next-button" onclick="scrollGallery(1)" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%);">❯</button>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <p></p>
+                <p id="text_signoff_select" class="lead text-center" style="max-width: 100%; font-family: 'open sans'; font-size: 1.5em; font-weight: 500">We'll help you unlock the full potential of your strains with expert care.</p>
+                <hr class="primary" style="border-color: black">
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .gallery-container {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .gallery-inner { /* Styles for the scrolling container */
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .gallery-image {
+            width: auto;
+            height: auto;
+            max-height: 300px;
+            margin-right: 10px;
+            display: inline-block;
+            object-fit: contain;
+        }
+
+        @media (max-width: 576px) {
+            .gallery-image {
+                max-height: 200px;
+            }
+        }
+        .gallery-control {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            z-index: 1; /* Ensure buttons are on top */
+        }
+        .prev-button {
+            left: 10px;
+        }
+        .next-button {
+            right: 10px;
+        }
+
+    </style>
+
+    <script>
+        function scrollGallery(direction) {
+            const galleryInner = document.querySelector('.gallery-inner');
+            const scrollAmount = galleryInner.offsetWidth * 0.8 * direction; // Adjust 0.8 for scroll increment
+            galleryInner.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        }
+    </script>
+
+</section>

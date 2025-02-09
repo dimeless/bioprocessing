@@ -91,7 +91,7 @@
 
             <!-- Title and Text -->
             <hr style="border-color: white;">
-            <p id="big_text_header" style="font-size: 32px; text-transform: uppercase; font-weight: bold; color: white;">Full service R & D platform for microbe-based biomanufacturing</p>
+            <p id="big_text_header" style="font-size: 32px; text-transform: uppercase; font-weight: bold; color: white;">Full service R&D platform for microbe-based biomanufacturing</p>
 <!--            <p><h4 id="small_text_header">From Laboratory Research to Industrial Scale-Up & Technology Transfer</h4></p>-->
             <a href="#work-with-us" id="button_header" class="btn btn-primary btn-xl page-scroll">Find out more</a>
         </div>
@@ -105,7 +105,7 @@
                 <h2 id="title_about" class="section-heading">Work with Our Experts</h2>
                 <hr class="light">
                 <p id="text_about"  class="text-faded" style="font-size: 19px">With 15+ years of hands-on industrial fermentation experience and decades of expertise in microbial strain engineering, our team works with academic researchers and emerging startups, supporting projects at every stage—offering services in process optimization, scale-up and scale-down, production demonstrations, and technology transfer.</p>
-                <a href="#portfolio" id="button_about" class="btn btn-default btn-xl page-scroll" style="background-color: white; color: #2f526f;">Learn What We Do</a>
+                <a href="#portfolio" id="button_about" class="btn btn-default btn-xl page-scroll" style="background-color: white; color: #2f526f;">Learn How We Can Help</a>
             </div>
         </div>
     </div>
@@ -546,6 +546,83 @@
 </section>
 
 
+  <section id="signoff_select" style="background-color: white; color: black;">
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-6 order-md-first d-flex justify-content-center">
+                <div class="gallery-container" style="position: relative;">  <div class="gallery-inner" style="overflow: hidden; white-space: nowrap;">
+                        <img src="img/krakenimages-376KN_ISplE-unsplash.jpg" alt="Image 1" class="gallery-image">
+                        <img src="img/istockphoto-181886590-1024x1024_watermark-unlicensed.jpg" alt="Image 2" class="gallery-image">
+                        <img src="img/isaac-smith-AT77Q0Njnt0-unsplash.jpg" alt="Image 3" class="gallery-image">
+                        <img src="img/florian-berger-SzG0ncGBOeo-unsplash.jpg" alt="Image 3" class="gallery-image">
+                        <img src="img/volodymyr-hryshchenko-L0oJ4Dlfyuo-unsplash.jpg" alt="Image 3" class="gallery-image">
+                        <img src="img/emily-crawford-WRhguOHRsqM-unsplash.jpg" alt="Image 3" class="gallery-image">
+                        <img src="img/freestocks-r_oV6smBBYk-unsplash.jpg" alt="Image 3" class="gallery-image">
+
+                        </div>
+                    <button class="gallery-control prev-button" onclick="scrollGallery(-1)" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%);">❮</button>
+                    <button class="gallery-control next-button" onclick="scrollGallery(1)" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%);">❯</button>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <p></p>
+                <p id="text_signoff_select" class="lead text-center" style="max-width: 100%; font-family: 'open sans'; font-size: 1.5em; font-weight: 500">We'll help you unlock the full potential of your strains with expert care.</p>
+                <hr class="primary" style="border-color: black">
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .gallery-container {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .gallery-inner { /* Styles for the scrolling container */
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .gallery-image {
+            width: auto;
+            height: auto;
+            max-height: 300px;
+            margin-right: 10px;
+            display: inline-block;
+            object-fit: contain;
+        }
+
+        @media (max-width: 576px) {
+            .gallery-image {
+                max-height: 200px;
+            }
+        }
+        .gallery-control {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            z-index: 1; /* Ensure buttons are on top */
+        }
+        .prev-button {
+            left: 10px;
+        }
+        .next-button {
+            right: 10px;
+        }
+
+    </style>
+
+    <script>
+        function scrollGallery(direction) {
+            const galleryInner = document.querySelector('.gallery-inner');
+            const scrollAmount = galleryInner.offsetWidth * 0.8 * direction; // Adjust 0.8 for scroll increment
+            galleryInner.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        }
+    </script>
+
+</section>
   <section id="signoff" style="background-color: white; color: black;">
     <div class="container my-4">
         <div class="row">
@@ -556,7 +633,7 @@
             <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
                 <p></p>
                 <p id="text_signoff" class="lead text-center" style="max-width: 100%; font-family: 'open sans'; font-size: 1.5em; font-weight: 500">Trust us with your favourite bugs. We'll get the best out of them because we'll love them like our own.</p>
-                <hr class="primary">
+                <hr class="primary" style="border-color: black">
             </div>
         </div>
     </div>

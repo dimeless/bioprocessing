@@ -15,7 +15,7 @@
     nav_partners: "Partners",
 
     <!-- header.html text -->
-    big_text_header: "Full service R & D platform for microbe-based biomanufacturing",
+    big_text_header: "Full service R&D platform for microbe-based biomanufacturing",
     small_text_header: "From Laboratory Research to Industrial Scale-Up & Technology Transfer",
     button_header: "Find out more",
 
@@ -26,7 +26,7 @@
     <!-- work-with-us.html text -->
     title_about:"Work with Our Experts",
     text_about:"With 15+ years of hands-on industrial fermentation experience and decades of expertise in microbial strain engineering, our team works with academic researchers and emerging startups, supporting projects at every stage—offering services in process optimization, scale-up and scale-down, production demonstrations, and technology transfer.",
-    button_about:"Learn What We Do",
+    button_about:"Learn How We Can Help",
 
     <!-- pledge.html text -->
     title_pledge: "At Your Service",
@@ -78,6 +78,9 @@
     title_affiliation: "We work hand-in-hand with Canada's first biofoundry, a high-throughput synthetic biology platform for your strain prototyping needs.",
     button_affiliation: "Explore the Genome Foundry",
 
+    <!-- signoff_select.html text -->
+    text_signoff_select: "We'll help you unlock the full potential of your strains with expert care.",
+
     <!-- signoff.html text -->
     text_signoff: "Trust us with your favourite bugs. We'll get the best out of them because we'll love them like our own.",
 
@@ -99,7 +102,7 @@
     nav_partners: "Partenaires",
 
     <!-- header.html text -->
-    big_text_header: "Plateforme de R & D complète pour la bioproduction à base de microbes",
+    big_text_header: "Plateforme de R&D complète pour la bioproduction à base de microbes",
     small_text_header: "De la recherche en laboratoire à l'industrialisation et au transfert de technologie",
     button_header: "En savoir plus",
 
@@ -110,7 +113,7 @@
     <!-- work-with-us.html text -->
     title_about:"Travaillez avec nos experts",
     text_about:"Fort de plus de 15 ans d'expérience pratique en fermentation industrielle et de plusieurs décennies d'expertise en ingénierie des souches microbiennes, notre équipe travaille avec des chercheurs académiques et des startups émergentes, soutenant les projets à chaque étape—en offrant des services d'optimisation des processus, de montée en échelle et de réduction d'échelle, de démonstrations de production et de transfert de technologie.",
-    button_about:"Découvrez ce que nous faisons",
+    button_about:"Découvrez nos solutions",
 
     <!-- pledge.html text -->
     title_pledge: "À votre service",
@@ -162,8 +165,11 @@
     title_affiliation: "Nous travaillons main dans la main avec la première biofonderie du Canada, une plateforme de biologie synthétique à haut débit pour vos besoins de prototypage de souches.",
     button_affiliation: "Explorer la fonderie de génomes",
 
+    <!-- signoff_select.html text -->
+    text_signoff_select: "Nous vous aiderons à révéler le plein potentiel de vos souches grâce à nos soins experts.",
+
     <!-- signoff.html text -->
-    text_signoff: "Faites-nous confiance pour vos micro-organismes préférés. Nous en tirerons le meilleur car nous en prendrons soin comme des nôtres.",
+    text_signoff: "Faites-nous confiance pour vos souches préférées. Nous en tirerons le meilleur car nous en prendrons soin comme des nôtres.",
 
     <!-- support.html text -->
     text_support: "Avec le soutien de",
