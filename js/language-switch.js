@@ -63,6 +63,11 @@
 
     <!-- team.html text -->
     title_team: "Our Team",
+    text_boss1: "Director",
+    text_boss2: "Director",
+    text_LK_title: "Supervisor, Bioprocessing Facility",
+    text_NG_title: "Senior Advisor, Business Development & Partnerships Engagement",
+    text_AM_title: "Manager, Research Operations",
 
     <!-- pricing.html text -->
     title_pricing: "Competitive Pricing for Startups and Academics",
@@ -71,7 +76,8 @@
 
     <!-- contact.html text -->
     title_contact: "Contact Us",
-    text_contact: "Contact us for an estimate and more information",
+    text_contact: "Contact us for an estimate and more information.",
+    text_contact_facility: "Concordia Bioprocessing",
     button_contact: "Inquiry Form",
 
     <!-- affiliation.html text -->
@@ -145,11 +151,16 @@
     text5_1_portfolio: "Biopolymères, biofertilisants, biopesticides, biocarburants, probiotiques, protéines recombinantes, insuline, enzymes, acides, ADN plasmidique, contrôles biologiques",
 
     title6_portfolio: "Modes et contrôle",
-    text6_1_portfolio: "Fonctionne en mode batch, fed-batch ou continu.",
-    text6_2_portfolio: "Contrôle par l'oxygène dissous, le pH, la température, et les gaz résiduels.",
+    text6_1_portfolio: "Fonctionnez en mode batch, fed-batch ou continu.",
+    text6_2_portfolio: "Contrôlez par l'oxygène dissous, le pH, la température, et les gaz résiduels.",
 
     <!-- team.html text -->
     title_team: "Notre équipe",
+    text_boss1: "Directeur",
+    text_boss2: "Directeur",
+    text_LK_title: "Superviseur de l'installation de biotraitement",
+    text_NG_title: "Conseiller principal- Développement des affaires et engagement des partenaires",
+    text_AM_title: "Chef des activités de recherche",
 
     <!-- pricing.html text -->
     title_pricing: "Tarification compétitive pour les startups et les universitaires",
@@ -158,7 +169,8 @@
 
     <!-- contact.html text -->
     title_contact: "Contactez-nous",
-    text_contact: "Contactez-nous pour une estimation et plus d'informations",
+    text_contact: "Contactez-nous pour une estimation et plus d'informations.",
+    text_contact_facility: "Biotransformation Concordia",
     button_contact: "Formulaire de demande",
 
     <!-- affiliation.html text -->
