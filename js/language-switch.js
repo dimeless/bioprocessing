@@ -36,14 +36,14 @@
     text_2: "Helping clients achieve milestones on time.",
     subtitle_3: "Consultative Approach",
     text_3: "Collaborating closely to meet your project needs.",
-    subtitle_4: "Innovative",
+    subtitle_4: "Innovate with Us",
     text_4: "Exploring new ideas while ensuring your IP remains yours.",
 
     <!-- portfolio_alt.html text -->
     title1_portfolio: "Fermentation capacity",
-    text1_1_portfolio: "Mini benchtop : 0.2 L (×8) (coming in Spring 2025)",
+    text1_1_portfolio: "Mini benchtop : 0.2 L (×8) (coming soon)",
     text1_2_portfolio: "Small benchtop : 3 L (×4), 5 L, 15 L (×2), 20 L (×2)",
-    text1_3_portfolio: "Steam-in-place : 10 L, 100 L, 200 L (coming until 2026)",
+    text1_3_portfolio: "Steam-in-place : 10 L, 100 L, 200 L (coming soon)",
 
     title2_portfolio: "Downstream Processing",
     text2_1_portfolio: "Continuous centrifugation (coming soon), tangential flow filtration, spray drying, lyophilization",
@@ -55,11 +55,11 @@
     text4_1_portfolio: "Bacteria, budding yeasts, methylotrophic yeasts, fungi",
 
     title5_portfolio: "Products we have experience with",
-    text5_1_portfolio: "Biopolymers, biofertilizers, biopesticides, biofuels, probiotics, recombinant proteins, Insulin, enzymes, acids, plasmid DNA, biological controls",
+    text5_1_portfolio: "Biopolymers, biofertilizers, biopesticides, biofuels, probiotics, recombinant proteins, insulin, enzymes, acids, plasmid DNA, biological controls",
 
     title6_portfolio: "Modes and Control",
-    text6_1_portfolio: "Run in batch, fed-batch, or continuous mode",
-    text6_2_portfolio: "Control by dissolved oxygen, pH, temperature, off-gas",
+    text6_1_portfolio: "Run in batch, fed-batch, or continuous mode.",
+    text6_2_portfolio: "Control by dissolved oxygen, pH, temperature, and off-gas.",
 
     <!-- team.html text -->
     title_team: "Our Team",
@@ -79,10 +79,10 @@
     button_affiliation: "Explore the Genome Foundry",
 
     <!-- signoff_select.html text -->
-    text_signoff_select: "We'll help you unlock the full potential of your strains with expert care.",
+    text_signoff_select: "Let us unlock the full potential of your strains with expert care.",
 
     <!-- signoff.html text -->
-    text_signoff: "Trust us with your favourite bugs. We'll get the best out of them because we'll love them like our own.",
+    text_signoff: "Let us unlock the full potential of your strains with expert care.",
 
     <!-- support.html text -->
     text_support: "With Support from",
@@ -120,17 +120,17 @@
     subtitle_1: "Notre engagement",
     text_1: "Votre succès est notre mesure de succès.",
     subtitle_2: "Nous livrons",
-    text_2: "Aider les clients à atteindre des jalons à temps.",
+    text_2: "Aider les clients à atteindre leurs objectifs à temps.",
     subtitle_3: "Approche consultative",
     text_3: "Collaborer étroitement pour répondre à vos besoins de projet.",
-    subtitle_4: "Innovant",
-    text_4: "Explorer de nouvelles idées tout en veillant à ce que votre PI reste la vôtre.",
+    subtitle_4: "Innovez avec nous",
+    text_4: "Explorer de nouvelles idées tout en veillant à ce que votre propriété intellectuelle reste la vôtre.",
 
     <!-- portfolio_alt.html text -->
     title1_portfolio: "Capacité de fermentation",
-    text1_1_portfolio: "Mini : 0,2 L (×8) (à venir au printemps 2025)",
+    text1_1_portfolio: "Mini : 0,2 L (×8) (bientôt disponible)",
     text1_2_portfolio: "Petit : 3 L (×4), 5 L, 15 L (×2), 20 L (×2)",
-    text1_3_portfolio: "Stérilisation en place : 10 L, 100 L, 200 L (à venir avant 2026)",
+    text1_3_portfolio: "Stérilisation en place : 10 L, 100 L, 200 L (bientôt disponible)",
 
     title2_portfolio: "Traitement en aval",
     text2_1_portfolio: "Centrifugation continue (bientôt disponible), filtration tangentielle, séchage par pulvérisation, lyophilisation",
@@ -145,8 +145,8 @@
     text5_1_portfolio: "Biopolymères, biofertilisants, biopesticides, biocarburants, probiotiques, protéines recombinantes, insuline, enzymes, acides, ADN plasmidique, contrôles biologiques",
 
     title6_portfolio: "Modes et contrôle",
-    text6_1_portfolio: "Fonctionne en mode batch, fed-batch ou continu",
-    text6_2_portfolio: "Contrôle par l'oxygène dissous, le pH, la température, les gaz résiduels",
+    text6_1_portfolio: "Fonctionne en mode batch, fed-batch ou continu.",
+    text6_2_portfolio: "Contrôle par l'oxygène dissous, le pH, la température, et les gaz résiduels.",
 
     <!-- team.html text -->
     title_team: "Notre équipe",
@@ -162,14 +162,14 @@
     button_contact: "Formulaire de demande",
 
     <!-- affiliation.html text -->
-    title_affiliation: "Nous travaillons main dans la main avec la première biofonderie du Canada, une plateforme de biologie synthétique à haut débit pour vos besoins de prototypage de souches.",
+    title_affiliation: "Nous travaillons main en avec la première biofonderie du Canada, une plateforme de biologie synthétique à haut débit pour vos besoins de prototypage de souches.",
     button_affiliation: "Explorer la fonderie de génomes",
 
     <!-- signoff_select.html text -->
-    text_signoff_select: "Nous vous aiderons à révéler le plein potentiel de vos souches grâce à nos soins experts.",
+    text_signoff_select: "Laissez-nous révéler le plein potentiel de vos souches grâce à nos soins experts.",
 
     <!-- signoff.html text -->
-    text_signoff: "Faites-nous confiance pour vos souches préférées. Nous en tirerons le meilleur car nous en prendrons soin comme des nôtres.",
+    text_signoff: "Laissez-nous révéler le plein potentiel de vos souches grâce à nos soins experts.",
 
     <!-- support.html text -->
     text_support: "Avec le soutien de",
