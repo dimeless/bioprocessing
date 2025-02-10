@@ -95,8 +95,9 @@
 
     <!-- support.html text -->
     text_support: "With Support from",
+    lallemand_link: "https://www.concordia.ca/cunews/offices/advancement/2022/09/28/collaboration-leads-to-success-lallemand-inc-gives-812-000-to-bioprocessing-centre.html",
 
-    <!-- support.html text -->
+    <!-- footer.html text -->
     text_footer: "Concordia Bioprocessing",
 
   };
@@ -193,8 +194,9 @@
 
     <!-- support.html text -->
     text_support: "Avec le soutien de",
+    lallemand_link: "https://www.concordia.ca/ucactualites/bureaux/avancement/2022/09/28/la-collaboration-mene-au-succes-la-societe-lallemand-verse-812-000-au-centre-de-biotransformation.html",
 
-    <!-- support.html text -->
+    <!-- footer.html text -->
     text_footer: "Biotransformation Concordia",
 
   };
@@ -213,6 +215,11 @@
 
     languageLogoNav.src = currentLanguage.logo_nav;
     languageLogoNav.alt = isEnglish ? "Concordia Bioprocessing Logo (EN)" : "Concordia Bioprocessing Logo (FR)";
+
+    const lallemandLink = document.querySelector('#support a'); // Select the <a> tag within #support
+    if (lallemandLink) { // Check if the element exists
+      lallemandLink.href = currentLanguage.lallemand_link;
+    }
 
     for (const [id, textKey] of Object.entries(currentLanguage))
     {
