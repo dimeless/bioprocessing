@@ -93,6 +93,12 @@
     <!-- support.html text -->
     text_support: "With Support from",
 
+    <!-- support.html text -->
+    text_footer: "Concordia Bioprocessing",
+
+    <!-- Logo header -->
+    logo: "img/logo.svg" // Path to English logo
+
   };
 
   const frenchText = {
@@ -186,13 +192,26 @@
     <!-- support.html text -->
     text_support: "Avec le soutien de",
 
+    <!-- support.html text -->
+    text_footer: "Biotransformation Concordia",
+
+    <!-- Logo header -->
+    logo: "img/logo_fr.png" // Path to French logo
+
+
   };
 
   let isEnglish = true;
+  const languageLogo = document.getElementById('languageLogo'); // Get the logo element (Do this *once* outside the function)
+
 
   function updateLanguage()
   {
     const currentLanguage = isEnglish ? englishText : frenchText;
+
+    // Update the logo FIRST:
+    languageLogo.src = currentLanguage.logo;
+    languageLogo.alt = isEnglish ? "Concordia Bioprocessing Logo (EN)" : "Concordia Bioprocessing Logo (FR)";
 
     for (const [id, textKey] of Object.entries(currentLanguage))
     {
