@@ -13,11 +13,14 @@
     nav_pricing: "Pricing",
     nav_contact: "Contact",
     nav_partners: "Partners",
+    logo_nav: "img/CBP logo.png",
 
     <!-- header.html text -->
     big_text_header: "Full service R&D platform for microbe-based biomanufacturing",
     small_text_header: "From Laboratory Research to Industrial Scale-Up & Technology Transfer",
     button_header: "Find out more",
+    logo_header: "img/logo.png",
+
 
     <!-- testimonial.html text -->
     clientFeatureTitle: "Client Feature",
@@ -96,9 +99,6 @@
     <!-- support.html text -->
     text_footer: "Concordia Bioprocessing",
 
-    <!-- Logo header -->
-    logo: "img/logo.svg" // Path to English logo
-
   };
 
   const frenchText = {
@@ -112,11 +112,13 @@
     nav_pricing: "Tarification",
     nav_contact: "Contact",
     nav_partners: "Partenaires",
+    logo_nav: "img/CBP logo_fr.png",
 
     <!-- header.html text -->
     big_text_header: "Plateforme de R&D complète pour la bioproduction à base de microbes",
     small_text_header: "De la recherche en laboratoire à l'industrialisation et au transfert de technologie",
     button_header: "En savoir plus",
+    logo_header: "img/logo_fr.png", // Path to French logo
 
     <!-- testimonial.html text -->
     clientFeatureTitle: "En vedette : client",
@@ -195,23 +197,22 @@
     <!-- support.html text -->
     text_footer: "Biotransformation Concordia",
 
-    <!-- Logo header -->
-    logo: "img/logo_fr.png" // Path to French logo
-
-
   };
 
   let isEnglish = true;
-  const languageLogo = document.getElementById('languageLogo'); // Get the logo element (Do this *once* outside the function)
-
+  const languageLogoHeader = document.getElementById('languageLogo');
+  const languageLogoNav = document.getElementById('languageLogo_nav');
 
   function updateLanguage()
   {
     const currentLanguage = isEnglish ? englishText : frenchText;
 
     // Update the logo FIRST:
-    languageLogo.src = currentLanguage.logo;
-    languageLogo.alt = isEnglish ? "Concordia Bioprocessing Logo (EN)" : "Concordia Bioprocessing Logo (FR)";
+    languageLogoHeader.src = currentLanguage.logo_header;
+    languageLogoHeader.alt = isEnglish ? "Concordia Bioprocessing Logo (EN)" : "Concordia Bioprocessing Logo (FR)";
+
+    languageLogoNav.src = currentLanguage.logo_nav;
+    languageLogoNav.alt = isEnglish ? "Concordia Bioprocessing Logo (EN)" : "Concordia Bioprocessing Logo (FR)";
 
     for (const [id, textKey] of Object.entries(currentLanguage))
     {
