@@ -28,7 +28,7 @@
 
     <!-- work-with-us.html text -->
     title_about:"Work with Our Experts",
-    text_about:"With 15+ years of hands-on industrial fermentation experience and decades of expertise in microbial strain engineering, our team works with academic researchers and emerging startups, supporting projects at every stage—offering services in process optimization, scale-up and scale-down, production demonstrations, and technology transfer.",
+    text_about:"With over 15 years of hands-on industrial fermentation experience and decades of expertise in microbial strain engineering, we support emerging startups and academic researchers by offering services in process optimization, scale-up and scale-down, production demonstration, and technology transfer.",
     button_about:"Learn How We Can Help",
 
     <!-- pledge.html text -->
@@ -84,7 +84,7 @@
     button_contact: "Inquiry Form",
 
     <!-- affiliation.html text -->
-    title_affiliation: "We work hand-in-hand with Canada's first biofoundry, a high-throughput synthetic biology platform for your strain prototyping needs.",
+    title_affiliation: "We work hand-in-hand with Canada's first biofoundry, a high-throughput synthetic biology platform for your strain prototyping and screening needs.",
     button_affiliation: "Explore the Genome Foundry",
 
     <!-- signoff_select.html text -->
@@ -127,7 +127,7 @@
 
     <!-- work-with-us.html text -->
     title_about:"Travaillez avec nos experts",
-    text_about:"Fort de plus de 15 ans d'expérience pratique en fermentation industrielle et de plusieurs décennies d'expertise en ingénierie des souches microbiennes, notre équipe travaille avec des chercheurs académiques et des startups émergentes, soutenant les projets à chaque étape—en offrant des services d'optimisation des processus, de montée en échelle et de réduction d'échelle, de démonstrations de production et de transfert de technologie.",
+    text_about:"Avec plus de 15 ans d'expérience pratique en fermentation industrielle et des décennies d'expertise en ingénierie des souches microbiennes, nous soutenons les startups émergentes et les chercheurs académiques en proposant des services d’optimisation des procédés, de montée et descente en échelle, de démonstration de production et de transfert de technologie.",
     button_about:"Découvrez nos solutions",
 
     <!-- pledge.html text -->
@@ -183,7 +183,7 @@
     button_contact: "Formulaire de demande",
 
     <!-- affiliation.html text -->
-    title_affiliation: "Nous travaillons main en avec la première biofonderie du Canada, une plateforme de biologie synthétique à haut débit pour vos besoins de prototypage de souches.",
+    title_affiliation: "Nous travaillons étroitement avec la première biofonderie du Canada, une plateforme de biologie synthétique à haut débit pour vos besoins de prototypage et de criblage de souches.",
     button_affiliation: "Explorer la fonderie de génomes",
 
     <!-- signoff_select.html text -->
