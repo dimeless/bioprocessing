@@ -17,7 +17,7 @@
 
     <!-- header.html text -->
     big_text_header: "Full service R&D platform for microbe-based biomanufacturing",
-    small_text_header: "From Laboratory Research to Industrial Scale-Up & Technology Transfer",
+    small_text_header: "Lab to Pilot Scale-Up Services",
     button_header: "Find out more",
     logo_header: "img/logo.png",
 
@@ -29,7 +29,7 @@
     <!-- work-with-us.html text -->
     title_about:"Work with Our Experts",
     text_about:"With over 15 years of hands-on industrial fermentation experience and decades of expertise in microbial strain engineering, we support emerging startups and academic researchers by offering services in process optimization, scale-up and scale-down, production demonstration, and technology transfer.",
-    button_about:"Learn How We Can Help",
+    button_about:"Browse Our Capacities",
 
     <!-- pledge.html text -->
     title_pledge: "At Your Service",
@@ -41,6 +41,8 @@
     text_3: "Collaborating closely to meet your project needs.",
     subtitle_4: "Innovate with Us",
     text_4: "Exploring new ideas while ensuring your IP remains yours.",
+    subtitle_5: "Your Process, Our Platform",
+    text_5: "Leverage our equipment and expertise.",
 
     <!-- portfolio_alt.html text -->
     title1_portfolio: "Fermentation capacity",
@@ -117,7 +119,7 @@
 
     <!-- header.html text -->
     big_text_header: "Plateforme de R&D complète pour la bioproduction à base de microbes",
-    small_text_header: "De la recherche en laboratoire à l'industrialisation et au transfert de technologie",
+    small_text_header: "Services de transition du laboratoire à l’échelle pilote",
     button_header: "En savoir plus",
     logo_header: "img/logo_fr.png", // Path to French logo
 
@@ -140,6 +142,8 @@
     text_3: "Collaborer étroitement pour répondre à vos besoins de projet.",
     subtitle_4: "Innovez avec nous",
     text_4: "Explorer de nouvelles idées tout en veillant à ce que votre propriété intellectuelle reste la vôtre.",
+    subtitle_5: "Votre procédé, notre plateforme",
+    text_5: "Profitez de nos équipements et de notre expertise.",
 
     <!-- portfolio_alt.html text -->
     title1_portfolio: "Capacité de fermentation",
