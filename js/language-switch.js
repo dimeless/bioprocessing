@@ -16,8 +16,8 @@
     logo_nav: "img/CBP logo.png",
 
     <!-- header.html text -->
-    big_text_header: "Full service R&D platform for microbe-based biomanufacturing",
-    small_text_header: "Lab to Pilot Scale-Up Services",
+    big_text_header: "Supporting microbe-based biomanufacturing from bench to pilot scale",
+    small_text_header: "A full-service R&D platform to test and realize the production potential of your research",
     button_header: "Find out more",
     logo_header: "img/logo.png",
 
@@ -89,11 +89,9 @@
     title_affiliation: "We work hand-in-hand with Canada's first biofoundry, a high-throughput synthetic biology platform for your strain prototyping and screening needs.",
     button_affiliation: "Explore the Genome Foundry",
 
-    <!-- signoff_select.html text -->
-    text_signoff_select: "Let us unlock the full potential of your strains with expert care.",
-
     <!-- signoff.html text -->
     text_signoff: "Let us unlock the full potential of your strains with expert care.",
+    signoff_credit: "Photo credit: Lisa Graves © Concordia University",
 
     <!-- support.html text -->
     text_support: "With Support from",
@@ -118,8 +116,8 @@
     logo_nav: "img/CBP logo_fr.png",
 
     <!-- header.html text -->
-    big_text_header: "Plateforme de R&D complète pour la bioproduction à base de microbes",
-    small_text_header: "Services de transition du laboratoire à l’échelle pilote",
+    big_text_header: "Au service de la bioproduction microbienne, du banc d’essai à l’échelle pilote",
+    small_text_header: "Une plateforme de R&D complète pour mettre à l'épreuve et réaliser le potentiel de production de votre recherche",
     button_header: "En savoir plus",
     logo_header: "img/logo_fr.png", // Path to French logo
 
@@ -190,11 +188,9 @@
     title_affiliation: "Nous travaillons étroitement avec la première biofonderie du Canada, une plateforme de biologie synthétique à haut débit pour vos besoins de prototypage et de criblage de souches.",
     button_affiliation: "Explorer la fonderie de génomes",
 
-    <!-- signoff_select.html text -->
-    text_signoff_select: "Laissez-nous révéler le plein potentiel de vos souches grâce à nos soins experts.",
-
     <!-- signoff.html text -->
     text_signoff: "Laissez-nous révéler le plein potentiel de vos souches grâce à nos soins experts.",
+    signoff_credit: "Crédit photo: Lisa Graves © Université Concordia",
 
     <!-- support.html text -->
     text_support: "Avec le soutien de",
