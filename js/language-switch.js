@@ -42,7 +42,7 @@
     subtitle_4: "Innovate with Us",
     text_4: "Exploring new ideas while ensuring your IP remains yours.",
     subtitle_5: "Your Process, Our Platform",
-    text_5: "Leverage our equipment and expertise.",
+    text_5: "Leverage our equipment and hands-on expertise.",
 
     <!-- portfolio_alt.html text -->
     title1_portfolio: "Fermentation capacity",
@@ -141,7 +141,7 @@
     subtitle_4: "Innovez avec nous",
     text_4: "Explorez de nouvelles idées avec nous tout en veillant à ce que votre propriété intellectuelle reste la vôtre.",
     subtitle_5: "Votre procédé, notre plateforme",
-    text_5: "Profitez de nos équipements et de notre expertise.",
+    text_5: "Profitez de nos équipements et de notre expertise pratique.",
 
     <!-- portfolio_alt.html text -->
     title1_portfolio: "Capacité de fermentation",
