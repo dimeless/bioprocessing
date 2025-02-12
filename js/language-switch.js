@@ -17,7 +17,7 @@
 
     <!-- header.html text -->
     big_text_header: "Supporting microbe-based biomanufacturing from bench to pilot scale",
-    small_text_header: "A full-service R&D platform to test and realize the production potential of your research",
+    small_text_header: "A full-service R&D platform to realize the production potential of your research",
     button_header: "Find out more",
     logo_header: "img/logo.png",
 
@@ -117,7 +117,7 @@
 
     <!-- header.html text -->
     big_text_header: "Au service de la bioproduction microbienne, du banc d’essai à l’échelle pilote",
-    small_text_header: "Une plateforme de R&D complète pour mettre à l'épreuve et réaliser le potentiel de production de votre recherche",
+    small_text_header: "Une plateforme de R&D complète pour réaliser le potentiel de production de votre recherche",
     button_header: "En savoir plus",
     logo_header: "img/logo_fr.png", // Path to French logo
 
@@ -135,11 +135,11 @@
     subtitle_1: "Notre engagement",
     text_1: "Votre succès est notre mesure de succès.",
     subtitle_2: "Nous livrons",
-    text_2: "Aider les clients à atteindre leurs objectifs à temps.",
+    text_2: "Nous aidons les clients à atteindre leurs objectifs à temps.",
     subtitle_3: "Approche consultative",
-    text_3: "Collaborer étroitement pour répondre à vos besoins de projet.",
+    text_3: "Nous collaborons étroitement pour répondre à vos besoins de projet.",
     subtitle_4: "Innovez avec nous",
-    text_4: "Explorer de nouvelles idées tout en veillant à ce que votre propriété intellectuelle reste la vôtre.",
+    text_4: "Explorez de nouvelles idées avec nous tout en veillant à ce que votre propriété intellectuelle reste la vôtre.",
     subtitle_5: "Votre procédé, notre plateforme",
     text_5: "Profitez de nos équipements et de notre expertise.",
 
