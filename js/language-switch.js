@@ -17,9 +17,9 @@
 
     <!-- header.html text -->
     big_text_header_1: "Cultivate.",
-    big_text_header_2: "Scale.",
-    big_text_header_3: "Test.",
-    big_text_header_4: "Repeat.",
+    big_text_header_2: "Test.",
+    big_text_header_3: "Scale.",
+    big_text_header_4: "Advance.",
     big_text_header_5: "Driving the Future of the Bioeconomy.",
     small_text_header: "A full-service R&D platform to realize the production potential of your research",
     button_header: "Find out more",
@@ -31,8 +31,8 @@
     clientTestimonial: "We ♥ Lalit. -You Know WhMOON",
 
     <!-- work-with-us.html text -->
-    title_about:"Supporting Microbe-Based Biomanufacturing at Every Stage",
-    text_about:"At Concordia Bioprocessing, we offer a full-service bioprocessing and fermentation R&D platform designed to help researchers and companies realize the production potential of their innovations. Backed by 15+ years of hands-on industrial fermentation experience and decades of expertise in microbial strain engineering, our team supports startups and academic researchers with process optimization, scale-up and scale-down, production demonstration, and technology transfer. Our facility is equipped for precision fermentation and industrial biotech applications, with dedicated downstream processing capacity for purification and recovery, as well as detailed process analytics and reporting to ensure reproducibility and regulatory readiness. Whether refining early-stage strains or transitioning to pilot-scale manufacturing, we provide the expertise and infrastructure needed to accelerate commercialization and drive the bioeconomy forward.",
+    title_about:"Driving the Future of the Bioeconomy",
+    text_about:"Concordia Bioprocessing offers you a full-service bioprocessing and fermentation R&D platform to help researchers and companies scale their innovations. With 15+ years of industrial fermentation experience and expertise in microbial strain engineering, we support startups and academics with process optimization, scale-up, production demonstration, and technology transfer. Our facility specializes in precision fermentation and industrial biotech, featuring dedicated downstream processing, purification, and detailed process analytics for reproducibility and regulatory readiness. From early-stage strain refinement to pilot-scale manufacturing, we provide the expertise and infrastructure to accelerate commercialization and drive the bioeconomy forward.",
     button_about:"Browse Our Capacities",
 
     <!-- pledge.html text -->
@@ -121,9 +121,9 @@
 
     <!-- header.html text -->
     big_text_header_1: "Cultivez.",
-    big_text_header_2: "Montez à l'échelle.",
-    big_text_header_3: "Testez.",
-    big_text_header_4: "Répétez.",
+    big_text_header_2: "Testez.",
+    big_text_header_3: "Montez à l'échelle.",
+    big_text_header_4: "Progressez.",
     big_text_header_5: "Propulser l’avenir de la bioéconomie.",
     small_text_header: "Une plateforme de R&D complète pour réaliser le potentiel de production de votre recherche",
     button_header: "En savoir plus",
@@ -134,8 +134,8 @@
     clientTestimonial: "Nous ♥ Lalit. -Vache qui rit",
 
     <!-- work-with-us.html text -->
-    title_about:"Soutenir la bioproduction microbienne à chaque étape",
-    text_about:"Chez Biotransformation Concordia, nous offrons une plateforme complète de R&D en bioproduction et fermentation, conçue pour aider les chercheurs et les entreprises à exploiter pleinement le potentiel de production de leurs innovations. Forts de plus de 15 ans d’expérience pratique en fermentation industrielle et de plusieurs décennies d’expertise en ingénierie des souches microbiennes, nous accompagnons les startups et les chercheurs académiques dans l’optimisation des procédés, l’augmentation et la réduction d’échelle, la démonstration de production et le transfert technologique. Notre installation est équipée pour la fermentation de précision et les applications en biotechnologie industrielle, avec une capacité dédiée au traitement en aval pour la purification et la récupération, ainsi qu’une analyse détaillée des procédés pour assurer la reproductibilité et la conformité réglementaire. Que ce soit pour perfectionner des souches en phase initiale ou pour passer à la fabrication à l’échelle pilote, nous offrons l’expertise et l’infrastructure nécessaires pour accélérer la commercialisation et faire avancer la bioéconomie.",
+    title_about:"Propulser l’avenir de la bioéconomie",
+    text_about:"Biotransformation Concordia vous offre une plateforme complète de R&D en bioprocédés et fermentation pour aider les chercheurs et les entreprises à développer et à faire évoluer leurs innovations. Avec plus de 15 ans d’expérience en fermentation industrielle et une expertise en ingénierie des souches microbiennes, nous accompagnons les startups et le milieu académique dans l’optimisation des procédés, le passage à l’échelle, la démonstration de production et le transfert technologique. Notre installation est spécialisée en fermentation de précision et en biotechnologie industrielle, avec des capacités dédiées à la purification, au traitement en aval et aux analyses détaillées assurant la reproductibilité et la conformité réglementaire. De l’optimisation des souches aux essais pilotes, nous fournissons l’expertise et l’infrastructure nécessaires pour accélérer la commercialisation et propulser la bioéconomie.",
     button_about:"Découvrez nos solutions",
 
     <!-- pledge.html text -->
